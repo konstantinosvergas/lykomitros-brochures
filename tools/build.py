@@ -1,7 +1,7 @@
 """Build the brochure landing pages from brochures.json into an output folder.
 
 Usage: python tools/build.py _site
-The PDFs themselves are downloaded into <out>/pdf/ by tools/fetch_pdfs.sh (run in GitHub Actions).
+The PDFs are copied into <out>/pdf/ by tools/fetch_pdfs.py (run in GitHub Actions).
 """
 import html, json, os, shutil, sys
 
@@ -72,7 +72,7 @@ def cta():
 
 
 def page(b):
-    original = cfg["base_pdf_url"] + b["pdf"]
+    original = f'../pdf/{b["slug"]}.pdf'
     title = f'{b["title"]} | Lykomitros Steel'
     rel_t, rel_u = b["related"]
     return head(title, b["lead"], "../") + f"""<main>
@@ -82,7 +82,7 @@ def page(b):
   <p>{e(b["lead"])}</p>
   <div class="actions">
     <a class="btn btn-primary" href="{SITE}">Visit lykomitros-steel.gr</a>
-    <a class="btn btn-outline" href="{original}" target="_blank" rel="noopener">Download PDF</a>
+    <a class="btn btn-outline" href="{original}" download="Lykomitros-Steel-{b["slug"]}.pdf">Download PDF</a>
     <a class="btn btn-outline" href="{rel_u}">{e(rel_t)} on our website</a>
   </div>
 </section>
