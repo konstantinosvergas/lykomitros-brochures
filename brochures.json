@@ -1,0 +1,15 @@
+{
+  "base_pdf_url": "https://www.lykomitros-steel.gr/files/Presentation/lykomitros-steel-",
+  "site": "https://www.lykomitros-steel.gr/",
+  "brochures": [
+    {"slug": "company-profile", "pdf": "company-profile-2026.pdf", "title": "Company Profile", "lead": "Who we are, what we build and how we deliver heavy steel structures.", "related": ["Company Overview", "https://www.lykomitros-steel.gr/company-overview/"]},
+    {"slug": "oil-gas", "pdf": "oil-gas-2026.pdf", "title": "Oil & Gas Capabilities", "lead": "Steel structures and fabrication for oil & gas and offshore projects.", "related": ["Oil & Gas", "https://www.lykomitros-steel.gr/oil-gas/"]},
+    {"slug": "offshore-wind", "pdf": "offshore-wind-2026.pdf", "title": "Offshore Wind Capabilities", "lead": "Fabrication for offshore wind and renewable energy projects.", "related": ["Offshore Wind", "https://www.lykomitros-steel.gr/offshore-wind/"]},
+    {"slug": "energy-electrical-infrastructure", "pdf": "energy-electrical-infrastructure-2026.pdf", "title": "Energy & Electrical Infrastructure", "lead": "Steel structures for power, grid and electrical infrastructure.", "related": ["Energy", "https://www.lykomitros-steel.gr/energy/"]},
+    {"slug": "bridges", "pdf": "bridges-2026.pdf", "title": "Bridges Capabilities", "lead": "Steel bridges and infrastructure fabrication.", "related": ["Infrastructure", "https://www.lykomitros-steel.gr/infrastructure/"]},
+    {"slug": "glass-roofs-buildings", "pdf": "glass-roofs-buildings-2026.pdf", "title": "Glass Roofs & Buildings", "lead": "Steel structures for buildings, glass roofs and architectural projects.", "related": ["Industrial Structures", "https://www.lykomitros-steel.gr/industrial-structures/"]},
+    {"slug": "defence-naval-industries", "pdf": "defence-naval-industries-2026.pdf", "title": "Defence & Naval Industries", "lead": "Fabrication for defence, shipbuilding and naval programmes.", "related": ["Defense", "https://www.lykomitros-steel.gr/defense/"]},
+    {"slug": "industrial-energy", "pdf": "industrial-energy-2026.pdf", "title": "Industrial & Energy Capabilities", "lead": "Steel structures for industrial plants and energy facilities.", "related": ["Industrial Structures", "https://www.lykomitros-steel.gr/industrial-structures/"]},
+    {"slug": "capabilities-brochure", "pdf": "capabilities-brochure-2026.pdf", "title": "Capabilities Brochure", "lead": "Our facilities, equipment and fabrication capabilities at a glance.", "related": ["Capabilities & Equipment", "https://www.lykomitros-steel.gr/downloads/"]}
+  ]
+}
